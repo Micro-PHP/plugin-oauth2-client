@@ -4,6 +4,7 @@
     "type": "library",
     "version": "1.0",
     "require": {
+        "micro/kernel": "^1",
         "micro/plugin-locator": "^1",
         "league/oauth2-client": "^2"
     },
