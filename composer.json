@@ -1,17 +1,16 @@
 {
     "name": "micro/plugin-oauth2-client",
-    "description": "Micro Framework: OAuth2 client based on \"league/oauth2-client\"",
-    "type": "library",
-    "version": "1.0",
+    "description": "Micro Framework: OAuth2 client based on league/oauth2-client",
+    "type": "micro-library",
     "require": {
-        "micro/kernel": "^1",
-        "micro/plugin-locator": "^1",
+        "micro/kernel": "^2.0",
+        "micro/plugin-locator": "^2.0",
         "league/oauth2-client": "^2"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Micro\\Plugin\\OAuth2\\Client\\": "src/"
+            "Micro\\Plugin\\OAuth2\\Client\\": "/"
         }
     },
     "authors": [
@@ -19,5 +18,6 @@
             "name": "Stanislau Komar",
             "email": "stanislau_komar@epam.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Micro\Plugin\OAuth2\Client;
 
-use Micro\Framework\Kernel\Configuration\PluginConfiguration;
+use Micro\Framework\BootConfiguration\Configuration\PluginConfiguration;
 use Micro\Plugin\OAuth2\Client\Configuration\OAuth2ClientPluginConfigurationInterface;
 use Micro\Plugin\OAuth2\Client\Configuration\Provider\OAuth2ClientProviderConfiguration;
 use Micro\Plugin\OAuth2\Client\Configuration\Provider\OAuth2ClientProviderConfigurationInterface;

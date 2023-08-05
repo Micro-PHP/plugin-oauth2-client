@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Micro\Plugin\OAuth2\Client\Configuration\Provider;
 
-use Micro\Framework\Kernel\Configuration\PluginRoutingKeyConfiguration;
+use Micro\Framework\BootConfiguration\Configuration\PluginRoutingKeyConfiguration;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>

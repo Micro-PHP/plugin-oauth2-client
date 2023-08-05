@@ -20,7 +20,6 @@ class ProviderAdapterNotRegisteredException extends \RuntimeException
 {
     /**
      * @param string $providerType
-     * @param int|null $code
      * @param \Throwable|null $throwable
      */
     public function __construct(string $providerType, \Throwable $throwable = null)

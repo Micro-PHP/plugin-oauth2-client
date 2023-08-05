@@ -14,7 +14,6 @@ declare(strict_types=1);
 namespace Micro\Plugin\OAuth2\Client\Provider\Locator;
 
 use Micro\Framework\Kernel\KernelInterface;
-use Micro\Plugin\Locator\Facade\LocatorFacadeInterface;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>
