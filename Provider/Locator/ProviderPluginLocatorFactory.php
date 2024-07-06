@@ -18,15 +18,14 @@ use Micro\Framework\Kernel\KernelInterface;
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>
  */
-class ProviderPluginLocatorFactory implements ProviderPluginLocatorFactoryInterface
+readonly class ProviderPluginLocatorFactory implements ProviderPluginLocatorFactoryInterface
 {
     /**
      * @param KernelInterface $kernel
      */
     public function __construct(
-        private readonly KernelInterface $kernel
-    )
-    {
+        private KernelInterface $kernel
+    ) {
     }
 
     /**

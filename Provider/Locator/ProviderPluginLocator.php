@@ -20,13 +20,14 @@ use Micro\Plugin\OAuth2\Client\Provider\OAuth2ClientProviderPluginInterface;
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>
  */
-class ProviderPluginLocator implements ProviderPluginLocatorInterface
+readonly class ProviderPluginLocator implements ProviderPluginLocatorInterface
 {
     /**
      * @param KernelInterface $kernel
      */
-    public function __construct(private readonly KernelInterface $kernel)
-    {
+    public function __construct(
+        private KernelInterface $kernel
+    ) {
     }
 
     /**
