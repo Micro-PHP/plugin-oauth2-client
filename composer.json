@@ -2,11 +2,19 @@
     "name": "micro/plugin-oauth2-client",
     "description": "Micro Framework: OAuth2 client based on \"league/oauth2-client\"",
     "type": "library",
-    "version": "1.0",
     "require": {
-        "micro/kernel": "^1",
-        "micro/plugin-locator": "^1",
-        "league/oauth2-client": "^2"
+        "php": "~8.2.0 || ~8.3.0",
+        "league/oauth2-client": "^2.9.1",
+        "micro/kernel": "^1.6",
+        "micro/kernel-boot-configuration": "^1.6",
+        "micro/kernel-boot-dependency": "^1.6",
+        "symfony/polyfill-mbstring": "^1.27"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "scripts": {
+        "test": "@php -d error_reporting=-1 vendor/bin/phpunit"
     },
     "license": "MIT",
     "autoload": {
